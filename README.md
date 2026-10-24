@@ -29,10 +29,13 @@ Desktop Settings also has a command-line interface (CLI). These are the commands
 | --- | --- |
 | `desktop-settings` | Open Desktop Settings. |
 | `desktop-settings --help` | Show available command-line options. |
+| `desktop-settings --page=desktop` | Open the Desktop page directly. |
+| `desktop-settings --page=dock` | Open the Dock page directly. |
 | `desktop-settings --page=background` | Open the Backgrounds page directly. |
 | `desktop-settings defaults apply --profile=gnome --yes` | Apply the GNOME defaults profile. |
 | `desktop-settings defaults apply --profile=ubuntu --yes` | Apply the Ubuntu defaults profile. |
 | `sudo desktop-settings defaults install-system --profile=gnome` | Install the GNOME defaults at system level. |
+| `sudo desktop-settings defaults install-system --profile=ubuntu` | Install the Ubuntu defaults at system level. |
 
 **CLI status:** These commands are based on earlier development notes and have not yet all been verified against the current package. In one installed build, `desktop-settings --help` fails with `PermissionError: [Errno 13] Permission denied` when trying to start `/usr/lib/desktop-settings/desktop-settings-cli`. The executable permissions or packaging need to be checked before treating the CLI as working.
 
