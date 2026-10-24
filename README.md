@@ -21,6 +21,23 @@ That's why I started making **Desktop Settings** for myself. It's not meant to r
 <img height="300" alt="Screenshot From 2026-10-24 12-35-12" src="https://github.com/user-attachments/assets/54fce70c-7012-4066-8828-0dbb8235fe58" /> <img height="300" alt="Screenshot From 2026-10-24 12-34-02" src="https://github.com/user-attachments/assets/18fe5d28-7150-4cae-b5a4-bab2d7e1d839" />
 
 
+## Command-line options
+
+Desktop Settings also has a command-line interface (CLI). These are the commands documented during development:
+
+| Command | Purpose |
+| --- | --- |
+| `desktop-settings` | Open Desktop Settings. |
+| `desktop-settings --help` | Show available command-line options. |
+| `desktop-settings --page=background` | Open the Backgrounds page directly. |
+| `desktop-settings defaults apply --profile=gnome --yes` | Apply the GNOME defaults profile. |
+| `desktop-settings defaults apply --profile=ubuntu --yes` | Apply the Ubuntu defaults profile. |
+| `sudo desktop-settings defaults install-system --profile=gnome` | Install the GNOME defaults at system level. |
+
+**CLI status:** These commands are based on earlier development notes and have not yet all been verified against the current package. In one installed build, `desktop-settings --help` fails with `PermissionError: [Errno 13] Permission denied` when trying to start `/usr/lib/desktop-settings/desktop-settings-cli`. The executable permissions or packaging need to be checked before treating the CLI as working.
+
+**Be careful:** `defaults apply` changes settings, and `defaults install-system` makes system-level changes. The commands above are for reference, not a suggested sequence to run.
+
 ## GNOME extensions and credits
 
 I haven't made all of this from scratch. Desktop Settings uses existing **GNOME Shell extensions**, and I've adapted parts of some of them to make my own desktop work the way I want. The original extensions are the work of their respective developers.
