@@ -60,7 +60,7 @@ Other GNOME extensions used or referenced by this project include:
 
 These links point to the **original projects**. Not every extension is necessarily included in the Desktop Settings package. Thanks to the developers who made them possible.
 
-<img height="300" alt="Screenshot From 2026-10-24 12-33-28" src="https://github.com/user-attachments/assets/1406e9b8-a566-4036-8693-5c948fdf0f94" /> <img height="302" alt="Screenshot From 2026-10-24 12-35-17" src="https://github.com/user-attachments/assets/e357f106-2820-4e2d-b7d2-ad31ff834ef5" />
+<img height="250" alt="Screenshot From 2026-10-24 12-33-28" src="https://github.com/user-attachments/assets/1406e9b8-a566-4036-8693-5c948fdf0f94" /> <img height="250" alt="Screenshot From 2026-10-24 12-35-17" src="https://github.com/user-attachments/assets/e357f106-2820-4e2d-b7d2-ad31ff834ef5" />
 
 
 ## Just a hobby
